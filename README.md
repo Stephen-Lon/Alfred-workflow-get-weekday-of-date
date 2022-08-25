@@ -9,3 +9,5 @@ This basic little workflow simply returns the name of the weekday for any given 
 
 **Important note**
 For this workflow to work properly your date settings in System Preferences (macOS pre-Ventura) *must* show the date format mentioned (i.e., dd/mm/yyyy) for `System Preferences > Language & Region > Advanced > Dates` `Short:`.
+
+**Warning: the most recent version is for testing only!**
