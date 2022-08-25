@@ -6,3 +6,6 @@ This basic little workflow simply returns the name of the weekday for any given 
 - The workflow uses AppleScript at its core.
 - There is *some* validation of user input but I have no doubt the poor thing will break if you kick it hard enough. 😁
 - When you have installed it `Configure workflow` explains its pretty basic use.
+
+**Important note**
+For this workflow to work properly your date settings in System Preferences (macOS pre-Ventura) *must* show the date format mentioned (i.e., dd/mm/yyyy) for `System Preferences > Language & Region > Advanced > Dates` `Short:`.
