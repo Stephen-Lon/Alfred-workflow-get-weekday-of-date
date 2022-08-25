@@ -422,12 +422,7 @@ end run</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Warning
-
-**This is a beta version for testing only!**
-
-
-# Important note
+	<string># Important note
 
 In the configuration of this workflow you can choose to use European date format (dd/mm/yyyy) - which is the default - or, by un-checking the checkbox, choose to use the US date format (mm/dd/yyyy).
 
@@ -444,7 +439,7 @@ In the configuration of this workflow you can choose to use European date format
 
 # Usage
 
-Type the keyword `wkday` followed by &lt;space&gt; and a date in the format you have selected in the configuration. The dialog will tell you the weekday of the given date.
+Type the keyword `wkday` followed by &lt;space&gt; and a date in the format you have selected in the configuration. The dialog will confirm the date and tell you the weekday of that date.
 
 A regular expression checks for the correct input format.
 
@@ -606,7 +601,7 @@ A regular expression checks for the correct input format.
 		<string>^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$</string>
 	</dict>
 	<key>version</key>
-	<string>2.0 beta</string>
+	<string>2.0</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
