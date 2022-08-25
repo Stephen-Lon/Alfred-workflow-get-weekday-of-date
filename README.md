@@ -8,7 +8,7 @@ In the configuration of this workflow you can choose to use European date format
 **For this workflow to work properly these must match:**
 
 - the date format you choose in configuration of the workflow; and
-- the format of your computer's short date in System Preferences > Language & Region > Advanced > Dates` `Short:`.
+- the format of your computer's short date in System Preferences > Language & Region > Advanced > Dates `Short:`.
 
 **The workflow will not work properly if those settings do not match.**
 
