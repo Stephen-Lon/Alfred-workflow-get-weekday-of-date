@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Utilities</string>
+	<key>connections</key>
+	<dict>
+		<key>05A80365-2154-48B7-8F82-A9B03995E226</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4F286EFC-6A21-4C05-A864-73C48AD7D2CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>093D2211-32ED-4388-871F-1E82FB9BF4FD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C456C548-9BDE-489C-9EFE-B65AB874DDCF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4F286EFC-6A21-4C05-A864-73C48AD7D2CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7A7A6F4-9687-4D69-97F3-520454FF9D0F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2B122019-806A-4494-94C8-33374B109B72</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7F0CFDFD-08CB-41B1-880E-525CE5445E2C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6D436FAD-10C3-4DDD-82A1-DD7CC849C8CF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E81CF243-4D5D-47F3-87AC-A1BF2FB3B801</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4BA3F7E2-7796-49F2-B1A7-D3394A026585</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>91A2EC9B-C53E-45B8-A77A-ED1127DCB864</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7F0CFDFD-08CB-41B1-880E-525CE5445E2C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6D436FAD-10C3-4DDD-82A1-DD7CC849C8CF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9B406C7C-5F09-4A79-876A-16BA9B5A847B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>093D2211-32ED-4388-871F-1E82FB9BF4FD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B7A7A6F4-9687-4D69-97F3-520454FF9D0F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6D436FAD-10C3-4DDD-82A1-DD7CC849C8CF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DF5E0DA5-3608-4BF7-B3A6-AF467E7A9B19</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>05A80365-2154-48B7-8F82-A9B03995E226</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E81CF243-4D5D-47F3-87AC-A1BF2FB3B801</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9B406C7C-5F09-4A79-876A-16BA9B5A847B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Stephen Christy</string>
+	<key>description</key>
+	<string>Get the weekday of a given date</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Get weekday of date</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>theRegEx</key>
+					<string>^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B7A7A6F4-9687-4D69-97F3-520454FF9D0F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+  	set theQuery to item 1 of argv
+	set astid to AppleScript's text item delimiters	set AppleScript's text item delimiters to " "	set mediumDate to words 2 through 4 of (date string of (date theQuery)) as string	set AppleScript's text item delimiters to astid	return mediumDate
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E81CF243-4D5D-47F3-87AC-A1BF2FB3B801</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>wkday</string>
+				<key>subtext</key>
+				<string>E.g., 25/08/2022 (or 08/25/2022 if US format chosen in configuration)</string>
+				<key>text</key>
+				<string>Find the weekday of a given date</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DF5E0DA5-3608-4BF7-B3A6-AF467E7A9B19</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:DateFormat}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Eurpoean date format</string>
+						<key>uid</key>
+						<string>2B122019-806A-4494-94C8-33374B109B72</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>US date format</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4F286EFC-6A21-4C05-A864-73C48AD7D2CE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:theShortDate}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>{var:theRegEx}</string>
+						<key>outputlabel</key>
+						<string>Find weekday</string>
+						<key>uid</key>
+						<string>4BA3F7E2-7796-49F2-B1A7-D3394A026585</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Input error</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>6D436FAD-10C3-4DDD-82A1-DD7CC849C8CF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>theShortDate</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>05A80365-2154-48B7-8F82-A9B03995E226</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>theRegEx</key>
+					<string>^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7F0CFDFD-08CB-41B1-880E-525CE5445E2C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Ok</string>
+				<key>button2</key>
+				<string></string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>Please ensure you type the required date in the correct format chosen in the workflow configuration.</string>
+				<key>title</key>
+				<string>Input error</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>91A2EC9B-C53E-45B8-A77A-ED1127DCB864</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+	set theDateText to item 1 of argv
+	set theWeekday to word 1 of (date string of (date theDateText))
+	return theWeekday
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>093D2211-32ED-4388-871F-1E82FB9BF4FD</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>theMediumDate</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9B406C7C-5F09-4A79-876A-16BA9B5A847B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Ok</string>
+				<key>button2</key>
+				<string></string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>{var:theMediumDate} is a {query}</string>
+				<key>title</key>
+				<string>Find the weekday of a date</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>C456C548-9BDE-489C-9EFE-B65AB874DDCF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Warning
+
+**This is a beta version for testing only!**
+
+
+# Important note
+
+In the configuration of this workflow you can choose to use European date format (dd/mm/yyyy) - which is the default - or, by un-checking the checkbox, choose to use the US date format (mm/dd/yyyy).
+
+---
+
+**For this workflow to work properly these must match:**
+
+- the date format you choose in configuration of the workflow; and
+- the format of your computer's short date in System Preferences &gt; Language &amp; Region &gt; Advanced &gt; Dates` `Short:`.
+
+**The workflow will not work properly if those settings do not match.**
+
+---
+
+# Usage
+
+Type the keyword `wkday` followed by &lt;space&gt; and a date in the format you have selected in the configuration. The dialog will tell you the weekday of the given date.
+
+A regular expression checks for the correct input format.
+
+---
+
+**Version 1.1** 24/08/2022: added start and end string to regular expression.
+**Version 1.2** 25/08/2022: added warning about `Language &amp; Region` settings.
+**Version 2.0** 25/08/2022: added option to choose date format, emphasis in workflow configuration on that format matching system preferences and improved display of date in final dialog.</string>
+	<key>uidata</key>
+	<dict>
+		<key>05A80365-2154-48B7-8F82-A9B03995E226</key>
+		<dict>
+			<key>note</key>
+			<string>Store the date as a variable</string>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>75</real>
+		</dict>
+		<key>093D2211-32ED-4388-871F-1E82FB9BF4FD</key>
+		<dict>
+			<key>note</key>
+			<string>Get the weekday</string>
+			<key>xpos</key>
+			<real>775</real>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>4F286EFC-6A21-4C05-A864-73C48AD7D2CE</key>
+		<dict>
+			<key>note</key>
+			<string>Decision based on format selected in workflow configuration</string>
+			<key>xpos</key>
+			<real>290</real>
+			<key>ypos</key>
+			<real>65</real>
+		</dict>
+		<key>6D436FAD-10C3-4DDD-82A1-DD7CC849C8CF</key>
+		<dict>
+			<key>note</key>
+			<string>Proceed if RegEx matches input date otherwise throw error</string>
+			<key>xpos</key>
+			<real>615</real>
+			<key>ypos</key>
+			<real>65</real>
+		</dict>
+		<key>7F0CFDFD-08CB-41B1-880E-525CE5445E2C</key>
+		<dict>
+			<key>note</key>
+			<string>RegEx to validate US date</string>
+			<key>xpos</key>
+			<real>485</real>
+			<key>ypos</key>
+			<real>125</real>
+		</dict>
+		<key>91A2EC9B-C53E-45B8-A77A-ED1127DCB864</key>
+		<dict>
+			<key>note</key>
+			<string>Error message</string>
+			<key>xpos</key>
+			<real>760</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
+		<key>9B406C7C-5F09-4A79-876A-16BA9B5A847B</key>
+		<dict>
+			<key>note</key>
+			<string>Store medium date</string>
+			<key>xpos</key>
+			<real>685</real>
+			<key>ypos</key>
+			<real>400</real>
+		</dict>
+		<key>B7A7A6F4-9687-4D69-97F3-520454FF9D0F</key>
+		<dict>
+			<key>note</key>
+			<string>RegEx to validate EUR date</string>
+			<key>xpos</key>
+			<real>485</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>C456C548-9BDE-489C-9EFE-B65AB874DDCF</key>
+		<dict>
+			<key>note</key>
+			<string>Format the output with the medium date &amp; weekday</string>
+			<key>xpos</key>
+			<real>950</real>
+			<key>ypos</key>
+			<real>400</real>
+		</dict>
+		<key>DF5E0DA5-3608-4BF7-B3A6-AF467E7A9B19</key>
+		<dict>
+			<key>note</key>
+			<string>Get the date in the selected format</string>
+			<key>xpos</key>
+			<real>35</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>E81CF243-4D5D-47F3-87AC-A1BF2FB3B801</key>
+		<dict>
+			<key>note</key>
+			<string>Convert the date to medium format for later output</string>
+			<key>xpos</key>
+			<real>845</real>
+			<key>ypos</key>
+			<real>30</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The default keyword to run this workflow is "wkday". You can change it here.</string>
+			<key>label</key>
+			<string>Workflow keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>European date format</string>
+			</dict>
+			<key>description</key>
+			<string>E.g., 28/08/2022. If you un-check the box the US date format (mm/dd/yyyy) will be used.</string>
+			<key>label</key>
+			<string>Use European date format (dd/mm/yyyy)</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>DateFormat</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>eurDateFormat</key>
+		<string>^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$</string>
+		<key>usDateFormat</key>
+		<string>^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$</string>
+	</dict>
+	<key>version</key>
+	<string>2.0 beta</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
