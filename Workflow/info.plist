@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>app.alfred.stephenc.getweekdayofdate</string>
 	<key>category</key>
 	<string>Utilities</string>
 	<key>connections</key>
@@ -157,7 +157,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Get weekday of date</string>
+	<string>Get Weekday of Date</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -179,6 +179,33 @@
 			<string>B7A7A6F4-9687-4D69-97F3-520454FF9D0F</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+	set theDateText to item 1 of argv
+	set theWeekday to word 1 of (date string of (date theDateText))
+	return theWeekday
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>093D2211-32ED-4388-871F-1E82FB9BF4FD</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -212,7 +239,7 @@ end run</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>wkday</string>
+				<string>{var:keyword}</string>
 				<key>subtext</key>
 				<string>E.g., 25/08/2022 (or 08/25/2022 if US format chosen in configuration)</string>
 				<key>text</key>
@@ -224,6 +251,47 @@ end run</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>DF5E0DA5-3608-4BF7-B3A6-AF467E7A9B19</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>theMediumDate</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9B406C7C-5F09-4A79-876A-16BA9B5A847B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Close</string>
+				<key>button2</key>
+				<string></string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>{var:theMediumDate} is a {query}</string>
+				<key>title</key>
+				<string>Find the weekday of a date</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>C456C548-9BDE-489C-9EFE-B65AB874DDCF</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -242,7 +310,7 @@ end run</string>
 						<key>matchstring</key>
 						<string></string>
 						<key>outputlabel</key>
-						<string>Eurpoean date format</string>
+						<string>European date format</string>
 						<key>uid</key>
 						<string>2B122019-806A-4494-94C8-33374B109B72</string>
 					</dict>
@@ -335,7 +403,7 @@ end run</string>
 			<key>config</key>
 			<dict>
 				<key>button1</key>
-				<string>Ok</string>
+				<string>Close</string>
 				<key>button2</key>
 				<string></string>
 				<key>button3</key>
@@ -352,74 +420,6 @@ end run</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>on run argv
-	set theDateText to item 1 of argv
-	set theWeekday to word 1 of (date string of (date theDateText))
-	return theWeekday
-end run</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>093D2211-32ED-4388-871F-1E82FB9BF4FD</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<true/>
-				<key>variables</key>
-				<dict>
-					<key>theMediumDate</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>9B406C7C-5F09-4A79-876A-16BA9B5A847B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>button1</key>
-				<string>Ok</string>
-				<key>button2</key>
-				<string></string>
-				<key>button3</key>
-				<string></string>
-				<key>description</key>
-				<string>{var:theMediumDate} is a {query}</string>
-				<key>title</key>
-				<string>Find the weekday of a date</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.dialog</string>
-			<key>uid</key>
-			<string>C456C548-9BDE-489C-9EFE-B65AB874DDCF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string># Important note
@@ -431,7 +431,7 @@ In the configuration of this workflow you can choose to use European date format
 **For this workflow to work properly these must match:**
 
 - the date format you choose in configuration of the workflow; and
-- the format of your computer's short date in System Preferences &gt; Language &amp; Region &gt; Advanced &gt; Dates` `Short:`.
+- the format of your computer's short date in `System Preferences &gt; Language &amp; Region &gt; Advanced &gt; Dates` `Short:`.
 
 **The workflow will not work properly if those settings do not match.**
 
@@ -447,7 +447,14 @@ A regular expression checks for the correct input format.
 
 **Version 1.1** 24/08/2022: added start and end string to regular expression.
 **Version 1.2** 25/08/2022: added warning about `Language &amp; Region` settings.
-**Version 2.0** 25/08/2022: added option to choose date format, emphasis in workflow configuration on that format matching system preferences and improved display of date in final dialog.</string>
+**Version 2.0** 25/08/2022: added option to choose date format, emphasis in workflow configuration on that format matching system preferences and improved display of date in final dialog.
+**Version 2.01** 26/08/2022: changed `Ok` to `Close` in Conditional Dialogs and to improve the layout of the workflow.
+**Version 2.02** 27/08/2022: corrected typo in first Conditional Dialog.
+**Version 2.1** 31/08/2022: correction to ensure keyword configuration works properly.
+**Version 2.11** 01/09/2022: small correction to markdown in `About this workflow`.
+**Version 2.12** 12/10/2022: removed old, redundant Environment Variables.
+**Version 2.13** 19/10/2022: replaced workflow icon.
+**Version 2.14** 21/10/2022: added bundle identifier.</string>
 	<key>uidata</key>
 	<dict>
 		<key>05A80365-2154-48B7-8F82-A9B03995E226</key>
@@ -464,9 +471,9 @@ A regular expression checks for the correct input format.
 			<key>note</key>
 			<string>Get the weekday</string>
 			<key>xpos</key>
-			<real>775</real>
+			<real>1125</real>
 			<key>ypos</key>
-			<real>370</real>
+			<real>30</real>
 		</dict>
 		<key>4F286EFC-6A21-4C05-A864-73C48AD7D2CE</key>
 		<dict>
@@ -509,9 +516,9 @@ A regular expression checks for the correct input format.
 			<key>note</key>
 			<string>Store medium date</string>
 			<key>xpos</key>
-			<real>685</real>
+			<real>1025</real>
 			<key>ypos</key>
-			<real>400</real>
+			<real>60</real>
 		</dict>
 		<key>B7A7A6F4-9687-4D69-97F3-520454FF9D0F</key>
 		<dict>
@@ -527,9 +534,9 @@ A regular expression checks for the correct input format.
 			<key>note</key>
 			<string>Format the output with the medium date &amp; weekday</string>
 			<key>xpos</key>
-			<real>950</real>
+			<real>1310</real>
 			<key>ypos</key>
-			<real>400</real>
+			<real>60</real>
 		</dict>
 		<key>DF5E0DA5-3608-4BF7-B3A6-AF467E7A9B19</key>
 		<dict>
@@ -545,7 +552,7 @@ A regular expression checks for the correct input format.
 			<key>note</key>
 			<string>Convert the date to medium format for later output</string>
 			<key>xpos</key>
-			<real>845</real>
+			<real>850</real>
 			<key>ypos</key>
 			<real>30</real>
 		</dict>
@@ -556,11 +563,11 @@ A regular expression checks for the correct input format.
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string></string>
+				<string>wkday</string>
 				<key>placeholder</key>
-				<string></string>
+				<string>wlday</string>
 				<key>required</key>
-				<false/>
+				<true/>
 				<key>trim</key>
 				<true/>
 			</dict>
@@ -571,7 +578,7 @@ A regular expression checks for the correct input format.
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string></string>
+			<string>keyword</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -593,16 +600,11 @@ A regular expression checks for the correct input format.
 			<string>DateFormat</string>
 		</dict>
 	</array>
-	<key>variables</key>
-	<dict>
-		<key>eurDateFormat</key>
-		<string>^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$</string>
-		<key>usDateFormat</key>
-		<string>^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$</string>
-	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>2.0</string>
+	<string>2.14</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/Stephen-Lon/Alfred-workflow-get-weekday-of-date/</string>
 </dict>
 </plist>
