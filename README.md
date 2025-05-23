@@ -1,4 +1,8 @@
 # Alfred-workflow-get-weekday-of-date v2.0
+
+# Note
+One of my other workflows [`Find the weekday`](https://github.com/Stephen-Lon/Alfred-workflow-find-the-weekday) is, in my opinion, better than this workflow and does the same thing.
+
 # Important note
 
 In the configuration of this workflow you can choose to use European date format (dd/mm/yyyy) - which is the default - or, by un-checking the checkbox, choose to use the US date format (mm/dd/yyyy).
